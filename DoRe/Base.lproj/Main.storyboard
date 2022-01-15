@@ -101,7 +101,7 @@
             </objects>
             <point key="canvasLocation" x="1370" y="905"/>
         </scene>
-        <!--Home-->
+        <!--View Controller-->
         <scene sceneID="BS3-JU-mtK">
             <objects>
                 <viewController id="Bhc-Ho-VD4" sceneMemberID="viewController">
@@ -123,15 +123,11 @@
                             <constraint firstItem="VnW-y2-sRz" firstAttribute="centerX" secondItem="WM0-rC-Fa9" secondAttribute="centerX" id="8Hp-25-KOR"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="6Kj-AV-Q0a">
-                        <imageReference key="image" image="house.fill" catalog="system" renderingMode="template"/>
-                        <color key="badgeColor" name="LaunchScreenText"/>
-                        <imageReference key="selectedImage" image="house.fill" catalog="system" renderingMode="template"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="I7a-Hp-LB9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tv2-Ga-QNa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1371" y="-1111"/>
+            <point key="canvasLocation" x="2279.7101449275365" y="-1111.6071428571429"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="OE9-wM-cC4">
@@ -143,7 +139,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Bhc-Ho-VD4" kind="relationship" relationship="viewControllers" id="7R4-xI-yxa"/>
+                        <segue destination="z6G-Mg-Ho0" kind="relationship" relationship="viewControllers" id="7R4-xI-yxa"/>
                         <segue destination="I7B-5H-IYo" kind="relationship" relationship="viewControllers" id="Ej7-bu-ClL"/>
                         <segue destination="CUq-92-Nqj" kind="relationship" relationship="viewControllers" id="hMH-rf-m5I"/>
                         <segue destination="jTA-vw-zJS" kind="relationship" relationship="viewControllers" id="dkp-3X-Nzu"/>
@@ -153,6 +149,29 @@
             </objects>
             <point key="canvasLocation" x="-325" y="-27"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="f0W-pA-j40">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z6G-Mg-Ho0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="6Kj-AV-Q0a">
+                        <imageReference key="image" image="house.fill" catalog="system" renderingMode="template"/>
+                        <color key="badgeColor" name="LaunchScreenText"/>
+                        <imageReference key="selectedImage" image="house.fill" catalog="system" renderingMode="template"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qaO-6i-XHe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bhc-Ho-VD4" kind="relationship" relationship="rootViewController" id="Ct7-J8-7oc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ke2-Pb-saZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1369.5652173913045" y="-1111.6071428571429"/>
+        </scene>
     </scenes>
     <resources>
         <image name="circle.grid.2x2.fill" catalog="system" width="128" height="112"/>
@@ -160,7 +179,7 @@
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <namedColor name="LaunchScreenText">
-            <color red="0.1098632737994194" green="0.1323714554309845" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.13199999928474426" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
