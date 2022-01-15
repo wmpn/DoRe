@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="kPG-QX-l7R">
+            <objects>
+                <navigationController storyboardIdentifier="HomeNC" automaticallyAdjustsScrollViewInsets="NO" id="YlM-XI-eUG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="odj-eq-vwA">
+                        <imageReference key="image" image="house.fill" catalog="system" renderingMode="template"/>
+                        <color key="badgeColor" name="LaunchScreenText"/>
+                        <imageReference key="selectedImage" image="house.fill" catalog="system" renderingMode="template"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="pY5-Vr-kqe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <color key="textColor" name="LaunchScreenText"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d55-Re-itU" kind="relationship" relationship="rootViewController" id="Zb8-8j-TRp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dfa-Qs-1vy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1369.5652173913045" y="-1111.6071428571429"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="saj-kn-lr1">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="d55-Re-itU" customClass="HomeVC" customModule="DoRe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pHM-rj-vy3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwe-DQ-XY1">
+                                <rect key="frame" x="162" y="384.5" width="90.5" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" name="LaunchScreenText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QeW-7C-VSr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qwe-DQ-XY1" firstAttribute="centerY" secondItem="pHM-rj-vy3" secondAttribute="centerY" id="bJJ-aw-9uR"/>
+                            <constraint firstItem="qwe-DQ-XY1" firstAttribute="centerX" secondItem="pHM-rj-vy3" secondAttribute="centerX" id="gZW-n3-Jpf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="Ucb-kH-rPs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5M-6W-VHR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2222" y="-1112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <namedColor name="LaunchScreenText">
+            <color red="0.10999999940395355" green="0.13199999928474426" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

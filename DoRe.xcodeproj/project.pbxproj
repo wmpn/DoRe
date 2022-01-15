@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E8B22562792EFD2005DCB34 /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B22552792EFD2005DCB34 /* FavouritesVC.swift */; };
+		6E8B22592792F2DB005DCB34 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8B22582792F2DB005DCB34 /* Player.storyboard */; };
+		6E8B225B2792F2F5005DCB34 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B225A2792F2F5005DCB34 /* PlayerVC.swift */; };
+		6E8B225D2792F847005DCB34 /* Favourites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8B225C2792F847005DCB34 /* Favourites.storyboard */; };
+		6E8B2260279301D1005DCB34 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8B225F279301D1005DCB34 /* Home.storyboard */; };
+		6E8B22622793026F005DCB34 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B22612793026F005DCB34 /* HomeVC.swift */; };
+		6E8B226527932AC4005DCB34 /* NotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B226427932AC4005DCB34 /* NotesVC.swift */; };
+		6E8B226727932AD0005DCB34 /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8B226627932AD0005DCB34 /* Notes.storyboard */; };
+		6E8B226A27932B8A005DCB34 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8B226927932B8A005DCB34 /* Settings.storyboard */; };
+		6E8B226C27932B98005DCB34 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B226B27932B98005DCB34 /* SettingsVC.swift */; };
+		6E8B226E279337FE005DCB34 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B226D279337FE005DCB34 /* FavouriteCell.swift */; };
+		6E8B227127933B18005DCB34 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B227027933B18005DCB34 /* Favourite.swift */; };
 		6EBBF0F92791DBC6003433C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBF0F82791DBC6003433C1 /* AppDelegate.swift */; };
 		6EBBF0FB2791DBC6003433C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBF0FA2791DBC6003433C1 /* SceneDelegate.swift */; };
 		6EBBF0FD2791DBC6003433C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBF0FC2791DBC6003433C1 /* ViewController.swift */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E8B22552792EFD2005DCB34 /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
+		6E8B22582792F2DB005DCB34 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		6E8B225A2792F2F5005DCB34 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		6E8B225C2792F847005DCB34 /* Favourites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favourites.storyboard; sourceTree = "<group>"; };
+		6E8B225F279301D1005DCB34 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		6E8B22612793026F005DCB34 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6E8B226427932AC4005DCB34 /* NotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesVC.swift; sourceTree = "<group>"; };
+		6E8B226627932AD0005DCB34 /* Notes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notes.storyboard; sourceTree = "<group>"; };
+		6E8B226927932B8A005DCB34 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		6E8B226B27932B98005DCB34 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		6E8B226D279337FE005DCB34 /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
+		6E8B227027933B18005DCB34 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
 		6EBBF0F52791DBC6003433C1 /* DoRe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoRe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBBF0F82791DBC6003433C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EBBF0FA2791DBC6003433C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +61,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E8B22542792EF92005DCB34 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B22552792EFD2005DCB34 /* FavouritesVC.swift */,
+				6E8B225C2792F847005DCB34 /* Favourites.storyboard */,
+				6E8B226D279337FE005DCB34 /* FavouriteCell.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		6E8B22572792F2C6005DCB34 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B22582792F2DB005DCB34 /* Player.storyboard */,
+				6E8B225A2792F2F5005DCB34 /* PlayerVC.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		6E8B225E27930199005DCB34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B225F279301D1005DCB34 /* Home.storyboard */,
+				6E8B22612793026F005DCB34 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6E8B226327932AAE005DCB34 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B226427932AC4005DCB34 /* NotesVC.swift */,
+				6E8B226627932AD0005DCB34 /* Notes.storyboard */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		6E8B226827932B7D005DCB34 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B226927932B8A005DCB34 /* Settings.storyboard */,
+				6E8B226B27932B98005DCB34 /* SettingsVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6E8B226F27933B0A005DCB34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B227027933B18005DCB34 /* Favourite.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6EBBF0EC2791DBC6003433C1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +134,12 @@
 		6EBBF0F72791DBC6003433C1 /* DoRe */ = {
 			isa = PBXGroup;
 			children = (
+				6E8B226F27933B0A005DCB34 /* Models */,
+				6E8B226827932B7D005DCB34 /* Settings */,
+				6E8B226327932AAE005DCB34 /* Notes */,
+				6E8B225E27930199005DCB34 /* Home */,
+				6E8B22572792F2C6005DCB34 /* Player */,
+				6E8B22542792EF92005DCB34 /* Favourites */,
 				6EBBF0F82791DBC6003433C1 /* AppDelegate.swift */,
 				6EBBF0FA2791DBC6003433C1 /* SceneDelegate.swift */,
 				6EBBF0FC2791DBC6003433C1 /* ViewController.swift */,
@@ -125,8 +209,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EBBF1052791DBC9003433C1 /* LaunchScreen.storyboard in Resources */,
+				6E8B226727932AD0005DCB34 /* Notes.storyboard in Resources */,
+				6E8B22592792F2DB005DCB34 /* Player.storyboard in Resources */,
+				6E8B226A27932B8A005DCB34 /* Settings.storyboard in Resources */,
 				6EBBF1022791DBC9003433C1 /* Assets.xcassets in Resources */,
+				6E8B2260279301D1005DCB34 /* Home.storyboard in Resources */,
 				6EBBF1002791DBC6003433C1 /* Main.storyboard in Resources */,
+				6E8B225D2792F847005DCB34 /* Favourites.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +226,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8B22562792EFD2005DCB34 /* FavouritesVC.swift in Sources */,
+				6E8B226E279337FE005DCB34 /* FavouriteCell.swift in Sources */,
 				6EBBF0FD2791DBC6003433C1 /* ViewController.swift in Sources */,
 				6EBBF0F92791DBC6003433C1 /* AppDelegate.swift in Sources */,
+				6E8B22622793026F005DCB34 /* HomeVC.swift in Sources */,
+				6E8B227127933B18005DCB34 /* Favourite.swift in Sources */,
 				6EBBF0FB2791DBC6003433C1 /* SceneDelegate.swift in Sources */,
+				6E8B226C27932B98005DCB34 /* SettingsVC.swift in Sources */,
+				6E8B226527932AC4005DCB34 /* NotesVC.swift in Sources */,
+				6E8B225B2792F2F5005DCB34 /* PlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

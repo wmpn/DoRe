@@ -22,7 +22,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="DoRe">
                                         <attributes>
-                                            <color key="NSColor" red="0.3949149784100961" green="0.65129126671222592" blue="0.98328930139541626" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.36862745098039218" green="0.61176470588235299" blue="0.77647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="91" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -50,7 +50,7 @@
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="LaunchScreenText">
-            <color red="0.1098632737994194" green="0.1323714554309845" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.13199999928474426" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
