@@ -17,8 +17,30 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zsE-o4-Tgd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="T8D-gS-dXG">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T8D-gS-dXG" id="OJt-MB-Ry1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zsE-o4-Tgd" secondAttribute="bottom" id="JP4-bb-H8e"/>
+                            <constraint firstItem="zsE-o4-Tgd" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="ZCc-VF-vAY"/>
+                            <constraint firstItem="zsE-o4-Tgd" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="hvW-94-j1g"/>
+                            <constraint firstAttribute="trailing" secondItem="zsE-o4-Tgd" secondAttribute="trailing" id="vSw-mL-S02"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Notes" id="OQF-LB-nQC"/>
                 </viewController>
@@ -57,7 +79,7 @@
     <resources>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <namedColor name="LaunchScreenText">
-            <color red="0.10999999940395355" green="0.13199999928474426" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.13300000131130219" blue="0.49799999594688416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
