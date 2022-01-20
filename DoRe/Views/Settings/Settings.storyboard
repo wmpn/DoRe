@@ -17,8 +17,56 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mbE-eQ-aWu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <inset key="scrollIndicatorInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="egV-2z-hJn">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="44.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="egV-2z-hJn" id="8zt-ba-LMJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f5z-XH-Zux">
+                                                    <rect key="frame" x="20" y="10.5" width="24" height="23.5"/>
+                                                    <color key="tintColor" name="AccentColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="k8O-BT-3WU"/>
+                                                        <constraint firstAttribute="height" constant="24" id="nWc-W0-djf"/>
+                                                    </constraints>
+                                                    <imageReference key="image" image="person.circle" catalog="system" renderingMode="template"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I98-8K-HSs">
+                                                    <rect key="frame" x="64" y="12" width="310" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="f5z-XH-Zux" firstAttribute="leading" secondItem="8zt-ba-LMJ" secondAttribute="leading" constant="20" id="E3m-1H-nv6"/>
+                                                <constraint firstItem="I98-8K-HSs" firstAttribute="leading" secondItem="f5z-XH-Zux" secondAttribute="trailing" constant="20" id="Fof-LD-mwm"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="I98-8K-HSs" secondAttribute="trailing" constant="20" id="cPP-r8-pQm"/>
+                                                <constraint firstItem="f5z-XH-Zux" firstAttribute="top" secondItem="8zt-ba-LMJ" secondAttribute="top" constant="10" id="hbE-dT-MBz"/>
+                                                <constraint firstAttribute="bottom" secondItem="f5z-XH-Zux" secondAttribute="bottom" constant="10" id="ki3-XQ-jbW"/>
+                                                <constraint firstItem="I98-8K-HSs" firstAttribute="centerY" secondItem="8zt-ba-LMJ" secondAttribute="centerY" id="n41-nj-RNQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mbE-eQ-aWu" secondAttribute="trailing" id="2Tn-Li-Osy"/>
+                            <constraint firstItem="mbE-eQ-aWu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="MX6-K8-Sdf"/>
+                            <constraint firstItem="mbE-eQ-aWu" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="YNF-M8-8IG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="mbE-eQ-aWu" secondAttribute="bottom" id="qFO-Su-GtC"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="k2i-hV-7z1"/>
                 </viewController>
@@ -57,8 +105,12 @@
     </scenes>
     <resources>
         <image name="circle.grid.2x2.fill" catalog="system" width="128" height="112"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="LaunchScreenText">
-            <color red="0.10980392156862745" green="0.13333333333333333" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.13300000131130219" blue="0.49799999594688416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
